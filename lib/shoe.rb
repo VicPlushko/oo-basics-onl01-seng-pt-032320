@@ -4,10 +4,16 @@ class Shoe
     @brand = brand
   end
   
+  def condition=(condition)
+    @condition = new
+  end
+  
   def condition
+    @condition
+  end
   
   def cobble
-    @condition = new
+    @condition
     puts "The shoe has been repaired"
   end
 end
